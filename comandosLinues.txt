@@ -1,0 +1,52 @@
+ubicación:
+	pwd
+retroceder:
+	cd ..
+listar carpetas:
+	ls
+ir a directorio raiz:
+	cd /
+abrir archivos de windows:
+	cd mnt
+directo  home:
+	cd ~
+crear carpeta:
+	mkdir personalProjects
+carpeta con permisos de admin:
+	sudo mkdir
+crear archivo:
+	touch index.html
+mover archivo o carpeta a otra carpeta:
+	mv index.html proyectoDemoCursoPrework
+mostrar contenido de un archivo:
+	cat index.html
+ver manual de un comando:
+	man comando
+buscar actualizaciones:
+	sudo apt-get update
+aplicar actualizaciones:
+	sudo apt-get -upgrade
+instalar algo nuevo:
+	sudo apt install nodejs
+dar permisos de todo en la carpeta:
+	sudo chown -R andres ~/personalProjects
+	sudo chown -R nameUser ~/carpetaDarPermisos
+borrar archivo:
+	rm nameArchivo.extension
+borrar carpeta vacia:
+	rm -d nameCarpeta
+borrar carpeta con contenido:
+	rm -rf nameCarpeta
+crear una key:
+	ssh-keygen -t rsa -b 4096 -C "drusystem@gmail.com"
+verificar la key:
+	eval "$(ssh-agent -s)"
+copiar el id:
+	ssh-copy-id drusystem@gmail.com
+ver tu clave para usarla en el git:
+	cd ~/.ssh
+	cat id_rsa.pub
+
+
+
+	
